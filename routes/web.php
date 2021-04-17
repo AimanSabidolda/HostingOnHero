@@ -14,7 +14,7 @@ use App\Http\Controllers\LmsController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 Route::get('/index',[LmsController::class,'index']); 
 Route::get('aboutus',[LmsController::class,'aboutus']);  
